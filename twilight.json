@@ -318,6 +318,17 @@
                     "value": [],
                     "fields": [
                         {
+                            "id": "title",
+                            "key": "2b59846c-2aa4-41d1-b896-fb4f43d4b4b1",
+                            "type": "static",
+                            "format": "title",
+                            "label": "Title",
+                            "value": "بسم لله الرحمن الرحيم",
+                            "variant": "h1",
+                            "icon": "sicon-format-text",
+                            "defaulted": true
+                        },
+                        {
                             "type": "string",
                             "icon": "sicon-image",
                             "value": null,
@@ -327,7 +338,7 @@
                             "required": true,
                             "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                            "key": "8a9ab5f1-3368-4f83-8b0e-bf938d5d29ac"
+                            "key": "8deaddb4-7fd9-4ba8-8a46-f64b8b4fdbc4"
                         },
                         {
                             "type": "string",
@@ -343,7 +354,7 @@
                             "hide": false,
                             "minLength": 0,
                             "maxLength": 100,
-                            "key": "373c0bf7-4514-431c-9e42-fe4e0ba4bb72",
+                            "key": "0b9c7bb9-1a4d-4e45-b262-ac438adb2e15",
                             "defaulted": true
                         },
                         {
@@ -359,10 +370,10 @@
                             "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
                             "minLength": 0,
                             "maxLength": 255,
-                            "key": "8488cf3d-4f6c-4f45-be64-da3fa47c2a87"
+                            "key": "442fb400-2acc-4579-9f0b-19ced2559d20"
                         }
                     ],
-                    "key": "31feb7ad-187f-4ebc-934c-f68f8e175ea9"
+                    "key": "56cae3df-484f-4de6-ab58-865f999656ee"
                 }
             ]
         },
