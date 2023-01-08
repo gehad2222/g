@@ -19,7 +19,8 @@
         "component-square-photos",
         "component-store-features",
         "component-youtube",
-        "breadcrumb"
+        "breadcrumb",
+        "component-fixed-banner"
     ],
     "settings": [
         {
