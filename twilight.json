@@ -316,11 +316,11 @@
                     "required": true,
                     "placeholder": null,
                     "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                    "key": "0a9014f7-0c06-48ac-9a8b-e66d40b452a3"
+                    "key": "5ea7748f-01e7-496b-8ebf-97e4d759f18f"
                 },
                 {
                     "id": "عنوان الصورة",
-                    "key": "20a2579b-fdf6-4fbf-9558-2253cb6fdb1c",
+                    "key": "a144169c-6d5a-49d9-8e54-588ccd4835a1",
                     "type": "static",
                     "format": "title",
                     "label": "عنوان رئيسي",
@@ -330,7 +330,7 @@
                 },
                 {
                     "id": "aanoan_fraae",
-                    "key": "3191a6f4-53fd-4e0c-ac59-6d6be323a78c",
+                    "key": "e43e15c9-272a-4e44-a899-7446dd70ec8f",
                     "type": "static",
                     "format": "title",
                     "label": "عنوان فرعي",
