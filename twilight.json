@@ -30,7 +30,7 @@
             "description": null,
             "id": "vertical_fixed_products",
             "format": "switch",
-            "required": false,
+            "required": true,
             "value": false,
             "selected": false
         },
