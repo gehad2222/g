@@ -865,13 +865,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "key": "28ff9fc8-7cda-49c1-9f78-b8ae88a158e9",
-            "title": "home slider",
-            "icon": "sicon-store",
-            "path": "home.testtt2",
-            "fields": []
         }
     ],
     "support_url": null,
