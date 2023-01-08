@@ -307,50 +307,36 @@
             "path": "home.enhanced-slider",
             "fields": [
                 {
-                    "id": "slides",
-                    "type": "collection",
-                    "format": "collection",
+                    "type": "string",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "id": "slides.image",
+                    "label": "تجربة صورة البنر",
+                    "format": "image",
                     "required": true,
-                    "minLength": 1,
-                    "maxLength": 10,
-                    "label": null,
-                    "item_label": "صورة",
-                    "value": [],
-                    "fields": [
-                        {
-                            "type": "string",
-                            "icon": "sicon-image",
-                            "value": null,
-                            "id": "slides.image",
-                            "label": "صورة البنر",
-                            "format": "image",
-                            "required": true,
-                            "placeholder": null,
-                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                            "key": "ddf8f029-e7a2-406d-abfa-c6d4e267db68"
-                        },
-                        {
-                            "id": "عنوان الصورة",
-                            "key": "7fc6fcac-d3fa-4846-8fe1-ba734ef7f2cf",
-                            "type": "static",
-                            "format": "title",
-                            "label": "عنوان رئيسي",
-                            "value": null,
-                            "variant": "h1",
-                            "icon": "sicon-format-text"
-                        },
-                        {
-                            "id": "aanoan_fraae",
-                            "key": "68bfb67e-ddcf-4c21-b553-13d8b8f03e57",
-                            "type": "static",
-                            "format": "title",
-                            "label": "عنوان فرعي",
-                            "value": null,
-                            "variant": "h1",
-                            "icon": "sicon-format-text"
-                        }
-                    ],
-                    "key": "01309475-8f45-4a2d-91dc-bcf02f9e9382"
+                    "placeholder": null,
+                    "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
+                    "key": "0a9014f7-0c06-48ac-9a8b-e66d40b452a3"
+                },
+                {
+                    "id": "عنوان الصورة",
+                    "key": "20a2579b-fdf6-4fbf-9558-2253cb6fdb1c",
+                    "type": "static",
+                    "format": "title",
+                    "label": "عنوان رئيسي",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
+                },
+                {
+                    "id": "aanoan_fraae",
+                    "key": "3191a6f4-53fd-4e0c-ac59-6d6be323a78c",
+                    "type": "static",
+                    "format": "title",
+                    "label": "عنوان فرعي",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
                 }
             ]
         },
