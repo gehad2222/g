@@ -163,6 +163,17 @@
             "path": "home.enhanced-slider",
             "fields": [
                 {
+                    "id": "description_1",
+                    "key": "1a7f88d0-ed24-4c3b-a157-fb086d125fb7",
+                    "type": "static",
+                    "format": "description",
+                    "label": "Description 1",
+                    "value": "desc 1",
+                    "variant": "h1",
+                    "icon": "sicon-format-size",
+                    "defaulted": true
+                },
+                {
                     "id": "slides",
                     "type": "collection",
                     "format": "collection",
@@ -182,7 +193,8 @@
                             "format": "image",
                             "required": true,
                             "placeholder": null,
-                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
+                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
+                            "key": "2c2cb050-d2d2-4e2e-90fd-7dc9c00c8f87"
                         },
                         {
                             "type": "string",
@@ -197,7 +209,8 @@
                             "placeholder": "يمكنك إضافة عنوان بارز هنا...",
                             "hide": false,
                             "minLength": 0,
-                            "maxLength": 100
+                            "maxLength": 100,
+                            "key": "5ba77224-3b4a-42f9-9978-73544ab35c1e"
                         },
                         {
                             "type": "string",
@@ -211,9 +224,22 @@
                             "required": false,
                             "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
                             "minLength": 0,
-                            "maxLength": 255
+                            "maxLength": 255,
+                            "key": "c5a99328-b63a-4af1-b992-ae98c978b566"
                         }
-                    ]
+                    ],
+                    "key": "243718d1-6b0a-4e83-8fe2-05bec0ee397b"
+                },
+                {
+                    "id": "description",
+                    "key": "d9a13d1e-d28d-4582-badc-c0c0b90437ab",
+                    "type": "static",
+                    "format": "description",
+                    "label": "Description",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-size",
+                    "defaulted": true
                 }
             ]
         },
