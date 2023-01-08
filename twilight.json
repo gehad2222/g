@@ -307,17 +307,6 @@
             "path": "home.enhanced-slider",
             "fields": [
                 {
-                    "id": "description_1",
-                    "key": "5f858613-ce59-4fd1-90e8-a6a070c5d6a5",
-                    "type": "static",
-                    "format": "description",
-                    "label": "Description 1",
-                    "value": "desc 1",
-                    "variant": "h1",
-                    "icon": "sicon-format-size",
-                    "defaulted": true
-                },
-                {
                     "id": "slides",
                     "type": "collection",
                     "format": "collection",
@@ -338,7 +327,7 @@
                             "required": true,
                             "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                            "key": "fd92edd3-1fc2-46af-af04-e4a95a13ede5"
+                            "key": "8a9ab5f1-3368-4f83-8b0e-bf938d5d29ac"
                         },
                         {
                             "type": "string",
@@ -354,24 +343,8 @@
                             "hide": false,
                             "minLength": 0,
                             "maxLength": 100,
-                            "key": "9bb42629-30ec-4ae7-88a1-613ecd884aa6",
+                            "key": "373c0bf7-4514-431c-9e42-fe4e0ba4bb72",
                             "defaulted": true
-                        },
-                        {
-                            "type": "string",
-                            "icon": "sicon-format-text-alt",
-                            "label": "عنوان رئيسي",
-                            "multilanguage": true,
-                            "id": "slides.title",
-                            "value": null,
-                            "required": true,
-                            "format": "text",
-                            "description": "يتم عرضه على الصورة بحجم بارز جداً، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
-                            "placeholder": "يمكنك إضافة عنوان بارز هنا...",
-                            "hide": false,
-                            "minLength": 0,
-                            "maxLength": 100,
-                            "key": "20d6db53-4c5f-4665-9635-d45b978551e6"
                         },
                         {
                             "type": "string",
@@ -386,21 +359,10 @@
                             "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
                             "minLength": 0,
                             "maxLength": 255,
-                            "key": "a938f49f-17e0-42f1-9366-1bfe75a4efb5"
+                            "key": "8488cf3d-4f6c-4f45-be64-da3fa47c2a87"
                         }
                     ],
-                    "key": "7d2c547a-1c6f-4c51-b666-9b1d7b5ffe6a"
-                },
-                {
-                    "id": "description",
-                    "key": "a625724a-2cbc-4b4f-8c37-4d4649c6143e",
-                    "type": "static",
-                    "format": "description",
-                    "label": "Description",
-                    "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-size",
-                    "defaulted": true
+                    "key": "31feb7ad-187f-4ebc-934c-f68f8e175ea9"
                 }
             ]
         },
