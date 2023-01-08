@@ -307,7 +307,7 @@
             "fields": [
                 {
                     "id": "description_1",
-                    "key": "1a7f88d0-ed24-4c3b-a157-fb086d125fb7",
+                    "key": "5f858613-ce59-4fd1-90e8-a6a070c5d6a5",
                     "type": "static",
                     "format": "description",
                     "label": "Description 1",
@@ -337,7 +337,24 @@
                             "required": true,
                             "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                            "key": "2c2cb050-d2d2-4e2e-90fd-7dc9c00c8f87"
+                            "key": "fd92edd3-1fc2-46af-af04-e4a95a13ede5"
+                        },
+                        {
+                            "type": "string",
+                            "icon": "sicon-format-text-alt",
+                            "label": "عنوان رئيسي copy",
+                            "multilanguage": true,
+                            "id": "عنوان_رئيسي_copy",
+                            "value": null,
+                            "required": true,
+                            "format": "text",
+                            "description": "يتم عرضه على الصورة بحجم بارز جداً، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
+                            "placeholder": "يمكنك إضافة عنوان بارز هنا...",
+                            "hide": false,
+                            "minLength": 0,
+                            "maxLength": 100,
+                            "key": "9bb42629-30ec-4ae7-88a1-613ecd884aa6",
+                            "defaulted": true
                         },
                         {
                             "type": "string",
@@ -346,14 +363,14 @@
                             "multilanguage": true,
                             "id": "slides.title",
                             "value": null,
-                            "required": false,
+                            "required": true,
                             "format": "text",
                             "description": "يتم عرضه على الصورة بحجم بارز جداً، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
                             "placeholder": "يمكنك إضافة عنوان بارز هنا...",
                             "hide": false,
                             "minLength": 0,
                             "maxLength": 100,
-                            "key": "5ba77224-3b4a-42f9-9978-73544ab35c1e"
+                            "key": "20d6db53-4c5f-4665-9635-d45b978551e6"
                         },
                         {
                             "type": "string",
@@ -364,18 +381,18 @@
                             "value": null,
                             "description": "يتم عرضه على الصورة بحجم أصغر من العنوان الرئيسي، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
                             "format": "textarea",
-                            "required": false,
+                            "required": true,
                             "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
                             "minLength": 0,
                             "maxLength": 255,
-                            "key": "c5a99328-b63a-4af1-b992-ae98c978b566"
+                            "key": "a938f49f-17e0-42f1-9366-1bfe75a4efb5"
                         }
                     ],
-                    "key": "243718d1-6b0a-4e83-8fe2-05bec0ee397b"
+                    "key": "7d2c547a-1c6f-4c51-b666-9b1d7b5ffe6a"
                 },
                 {
                     "id": "description",
-                    "key": "d9a13d1e-d28d-4582-badc-c0c0b90437ab",
+                    "key": "a625724a-2cbc-4b4f-8c37-4d4649c6143e",
                     "type": "static",
                     "format": "description",
                     "label": "Description",
