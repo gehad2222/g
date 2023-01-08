@@ -316,27 +316,11 @@
                     "required": true,
                     "placeholder": null,
                     "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                    "key": "4a025ba5-54e3-4eb5-8b54-c260c553f3f7"
-                },
-                {
-                    "id": "slide.title",
-                    "key": "8188cff5-d2ff-40ee-be59-9800bc11373d",
-                    "type": "string",
-                    "format": "text",
-                    "label": "العنوان االرئيسي",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": true,
-                    "minLength": 6,
-                    "maxLength": 30
+                    "key": "0b7f46c7-77b5-47fe-9349-cbf98e6ad054"
                 },
                 {
                     "id": "slide.description",
-                    "key": "2a60745a-2bbc-452b-82ff-af65043d53db",
+                    "key": "edf0edd5-ae7c-484a-89e3-6bcf5581f2c1",
                     "type": "string",
                     "format": "text",
                     "label": "العنوان الفرعي",
