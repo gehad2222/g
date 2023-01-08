@@ -159,11 +159,6 @@
                     "key": "cca8f441-455a-4ab9-873d-a742d1656b39"
                 },
                 {
-                    "label": "تغطية الصورة كامل المساحة مع المحافظة على النسبة الصورة (Cover)",
-                    "value": "cover",
-                    "key": "e9c8ea8f-c5c6-438e-9d45-3bce269afde4"
-                },
-                {
                     "label": null,
                     "value": "Value 5",
                     "key": "95db1f72-4b7c-4eef-ac98-56ba82bd9f28"
@@ -194,6 +189,11 @@
                     "label": null,
                     "value": "Value 5",
                     "key": "95db1f72-4b7c-4eef-ac98-56ba82bd9f28"
+                },
+                {
+                    "label": null,
+                    "value": "Value 6",
+                    "key": "a9010790-8a3a-47c9-9ff7-fff110c1ae98"
                 }
             ],
             "source": "Manual",
@@ -204,7 +204,7 @@
             "type": "static",
             "format": "title",
             "label": "Titleslider",
-            "value": "hhhhhhhhhhhhhhhh",
+            "value": null,
             "variant": "h1",
             "icon": "sicon-format-text"
         },
