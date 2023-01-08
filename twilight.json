@@ -27,12 +27,18 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "وضع عمودي للمنتجات في مربع المنتجات الثابتة في الصفحة الرئيسية",
-            "description": "",
+            "description": "gehaddddddddddddddddddddd",
             "id": "vertical_fixed_products",
             "format": "switch",
             "required": false,
             "value": false,
             "selected": false
+        },
+        {
+            "type": "static",
+            "id": "undefined_copy_2",
+            "format": "line",
+            "label": "undefined copy 2"
         },
         {
             "type": "static",
@@ -50,7 +56,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "شريط علوي داكن",
-            "description": "",
+            "description": null,
             "id": "topnav_is_dark",
             "format": "switch",
             "required": false,
@@ -59,8 +65,22 @@
         },
         {
             "type": "static",
+            "id": "undefined_copy_1",
+            "format": "line",
+            "label": "undefined copy 1"
+        },
+        {
+            "type": "static",
             "id": "static-line3",
             "format": "line"
+        },
+        {
+            "type": "static",
+            "format": "title",
+            "id": "undefined_copy",
+            "value": "خيارات أسفل الصفحة",
+            "variant": "h6",
+            "label": "undefined copy"
         },
         {
             "type": "static",
@@ -73,7 +93,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "الوضع الداكن",
-            "description": "",
+            "description": null,
             "id": "footer_is_dark",
             "format": "switch",
             "required": false,
@@ -96,7 +116,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "تثبيت زر الإضافة والكمية أسفل شاشة الجوال",
-            "description": "",
+            "description": null,
             "id": "sticky_add_to_cart",
             "format": "switch",
             "required": false,
@@ -107,7 +127,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "اظهار الوسوم",
-            "description": "",
+            "description": null,
             "id": "show_tags",
             "format": "switch",
             "required": false,
@@ -119,7 +139,7 @@
             "type": "items",
             "format": "dropdown-list",
             "label": "طريقة عرض الصور في سليدر صور المنتج",
-            "description": "",
+            "description": null,
             "labelHTML": null,
             "icon": "sicon-list",
             "selected": [
@@ -153,6 +173,15 @@
             ],
             "source": "Manual",
             "required": true
+        },
+        {
+            "id": "title",
+            "type": "static",
+            "format": "title",
+            "label": "Title",
+            "value": null,
+            "variant": "h1",
+            "icon": "sicon-format-text"
         }
     ],
     "components": [
