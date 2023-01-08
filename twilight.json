@@ -30,7 +30,7 @@
             "description": null,
             "id": "vertical_fixed_products",
             "format": "switch",
-            "required": false,
+            "required": true,
             "value": false,
             "selected": false
         },
@@ -159,11 +159,6 @@
                     "key": "cca8f441-455a-4ab9-873d-a742d1656b39"
                 },
                 {
-                    "label": "تغطية الصورة كامل المساحة مع المحافظة على النسبة الصورة (Cover)",
-                    "value": "cover",
-                    "key": "e9c8ea8f-c5c6-438e-9d45-3bce269afde4"
-                },
-                {
                     "label": null,
                     "value": "Value 5",
                     "key": "95db1f72-4b7c-4eef-ac98-56ba82bd9f28"
@@ -194,6 +189,11 @@
                     "label": null,
                     "value": "Value 5",
                     "key": "95db1f72-4b7c-4eef-ac98-56ba82bd9f28"
+                },
+                {
+                    "label": null,
+                    "value": "Value 6",
+                    "key": "a9010790-8a3a-47c9-9ff7-fff110c1ae98"
                 }
             ],
             "source": "Manual",
@@ -204,7 +204,7 @@
             "type": "static",
             "format": "title",
             "label": "Titleslider",
-            "value": "hhhhhhhhhhhhhhhh",
+            "value": null,
             "variant": "h1",
             "icon": "sicon-format-text"
         },
@@ -307,50 +307,36 @@
             "path": "home.enhanced-slider",
             "fields": [
                 {
-                    "id": "slides",
-                    "type": "collection",
-                    "format": "collection",
+                    "type": "string",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "id": "slides.image",
+                    "label": "تجربة صورة البنر",
+                    "format": "image",
                     "required": true,
-                    "minLength": 1,
-                    "maxLength": 10,
-                    "label": null,
-                    "item_label": "صورة",
-                    "value": [],
-                    "fields": [
-                        {
-                            "type": "string",
-                            "icon": "sicon-image",
-                            "value": null,
-                            "id": "slides.image",
-                            "label": "صورة البنر",
-                            "format": "image",
-                            "required": true,
-                            "placeholder": null,
-                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                            "key": "ddf8f029-e7a2-406d-abfa-c6d4e267db68"
-                        },
-                        {
-                            "id": "عنوان الصورة",
-                            "key": "7fc6fcac-d3fa-4846-8fe1-ba734ef7f2cf",
-                            "type": "static",
-                            "format": "title",
-                            "label": "عنوان رئيسي",
-                            "value": null,
-                            "variant": "h1",
-                            "icon": "sicon-format-text"
-                        },
-                        {
-                            "id": "aanoan_fraae",
-                            "key": "68bfb67e-ddcf-4c21-b553-13d8b8f03e57",
-                            "type": "static",
-                            "format": "title",
-                            "label": "عنوان فرعي",
-                            "value": null,
-                            "variant": "h1",
-                            "icon": "sicon-format-text"
-                        }
-                    ],
-                    "key": "01309475-8f45-4a2d-91dc-bcf02f9e9382"
+                    "placeholder": null,
+                    "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
+                    "key": "5ea7748f-01e7-496b-8ebf-97e4d759f18f"
+                },
+                {
+                    "id": "عنوان الصورة",
+                    "key": "a144169c-6d5a-49d9-8e54-588ccd4835a1",
+                    "type": "static",
+                    "format": "title",
+                    "label": "عنوان رئيسي",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
+                },
+                {
+                    "id": "aanoan_fraae",
+                    "key": "e43e15c9-272a-4e44-a899-7446dd70ec8f",
+                    "type": "static",
+                    "format": "title",
+                    "label": "عنوان فرعي",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
                 }
             ]
         },
