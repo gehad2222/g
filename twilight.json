@@ -307,6 +307,16 @@
             "path": "home.enhanced-slider",
             "fields": [
                 {
+                    "id": "عنوان الصورة",
+                    "key": "8ee45325-19cd-4b52-83af-109e2ad3060c",
+                    "type": "static",
+                    "format": "title",
+                    "label": "Title",
+                    "value": "بسم لله الرحمن الرحيم",
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
+                },
+                {
                     "id": "slides",
                     "type": "collection",
                     "format": "collection",
@@ -318,17 +328,6 @@
                     "value": [],
                     "fields": [
                         {
-                            "id": "title",
-                            "key": "2b59846c-2aa4-41d1-b896-fb4f43d4b4b1",
-                            "type": "static",
-                            "format": "title",
-                            "label": "Title",
-                            "value": "بسم لله الرحمن الرحيم",
-                            "variant": "h1",
-                            "icon": "sicon-format-text",
-                            "defaulted": true
-                        },
-                        {
                             "type": "string",
                             "icon": "sicon-image",
                             "value": null,
@@ -338,7 +337,7 @@
                             "required": true,
                             "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                            "key": "8deaddb4-7fd9-4ba8-8a46-f64b8b4fdbc4"
+                            "key": "650dd585-f315-47aa-92c3-5ed08b59a4e5"
                         },
                         {
                             "type": "string",
@@ -354,7 +353,7 @@
                             "hide": false,
                             "minLength": 0,
                             "maxLength": 100,
-                            "key": "0b9c7bb9-1a4d-4e45-b262-ac438adb2e15",
+                            "key": "2281ce69-cbdd-4475-9cde-9ae66f5521f2",
                             "defaulted": true
                         },
                         {
@@ -370,10 +369,10 @@
                             "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
                             "minLength": 0,
                             "maxLength": 255,
-                            "key": "442fb400-2acc-4579-9f0b-19ced2559d20"
+                            "key": "5767f3ca-066a-4d25-b00e-7515491457f9"
                         }
                     ],
-                    "key": "56cae3df-484f-4de6-ab58-865f999656ee"
+                    "key": "9fdc1d60-d18f-401b-8aaa-b93680096ba0"
                 }
             ]
         },
