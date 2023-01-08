@@ -159,7 +159,7 @@
         {
             "key": "186b3f4f-25cf-4d3c-abca-cef7eed6f0ab",
             "title": "صور متحركة (محسنة)",
-            "icon": "sicon-image-carousel",
+            "icon": "sicon-store2",
             "path": "home.enhanced-slider",
             "fields": [
                 {
@@ -169,7 +169,7 @@
                     "required": true,
                     "minLength": 1,
                     "maxLength": 10,
-                    "label": "",
+                    "label": null,
                     "item_label": "صورة",
                     "value": [],
                     "fields": [
@@ -181,7 +181,7 @@
                             "label": "صورة البنر",
                             "format": "image",
                             "required": true,
-                            "placeholder": "",
+                            "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
                         },
                         {
