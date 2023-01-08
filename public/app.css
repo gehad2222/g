@@ -19862,6 +19862,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                     background-color: #062E5B
                 }
                 
-                .store-footer h3 {
+                .store-footer h3,
+                .unicode,
+                .border {
                     color: #fff;
                 }
