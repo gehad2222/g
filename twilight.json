@@ -308,7 +308,7 @@
             "fields": [
                 {
                     "id": "slides",
-                    "key": "472b7e01-7bef-4130-addd-28324392eee4",
+                    "key": "43736108-a521-456b-875b-42dc410af4a7",
                     "type": "collection",
                     "format": "collection",
                     "label": null,
@@ -319,7 +319,7 @@
                     "fields": [
                         {
                             "id": "slides.image",
-                            "key": "68d4b7ed-cf09-477d-944e-46326e12ab02",
+                            "key": "9d179d11-fae6-478c-a074-e19a376f1746",
                             "type": "string",
                             "format": "image",
                             "label": "Image",
@@ -332,7 +332,7 @@
                         },
                         {
                             "id": "slides.title",
-                            "key": "dc1771f3-47fc-4815-b76d-814467534b9e",
+                            "key": "4c824acb-3819-4fb1-8c32-449a9bfc7a48",
                             "type": "string",
                             "format": "text",
                             "label": "عنوان رئيسي",
@@ -348,7 +348,7 @@
                         },
                         {
                             "id": "slides.description",
-                            "key": "75b3b60e-8cb6-4a57-bcd2-51d8c3ade67f",
+                            "key": "660a0b04-0ee6-4074-8f2f-8819d34f17f7",
                             "type": "string",
                             "format": "text",
                             "label": "عنوان فرعي",
