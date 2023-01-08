@@ -307,16 +307,6 @@
             "path": "home.enhanced-slider",
             "fields": [
                 {
-                    "id": "عنوان الصورة",
-                    "key": "8ee45325-19cd-4b52-83af-109e2ad3060c",
-                    "type": "static",
-                    "format": "title",
-                    "label": "Title",
-                    "value": "بسم لله الرحمن الرحيم",
-                    "variant": "h1",
-                    "icon": "sicon-format-text"
-                },
-                {
                     "id": "slides",
                     "type": "collection",
                     "format": "collection",
@@ -337,42 +327,30 @@
                             "required": true,
                             "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                            "key": "650dd585-f315-47aa-92c3-5ed08b59a4e5"
+                            "key": "ddf8f029-e7a2-406d-abfa-c6d4e267db68"
                         },
                         {
-                            "type": "string",
-                            "icon": "sicon-format-text-alt",
-                            "label": "عنوان رئيسي copy",
-                            "multilanguage": true,
-                            "id": "عنوان_رئيسي_copy",
+                            "id": "عنوان الصورة",
+                            "key": "7fc6fcac-d3fa-4846-8fe1-ba734ef7f2cf",
+                            "type": "static",
+                            "format": "title",
+                            "label": "عنوان رئيسي",
                             "value": null,
-                            "required": true,
-                            "format": "text",
-                            "description": "يتم عرضه على الصورة بحجم بارز جداً، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
-                            "placeholder": "يمكنك إضافة عنوان بارز هنا...",
-                            "hide": false,
-                            "minLength": 0,
-                            "maxLength": 100,
-                            "key": "2281ce69-cbdd-4475-9cde-9ae66f5521f2",
-                            "defaulted": true
+                            "variant": "h1",
+                            "icon": "sicon-format-text"
                         },
                         {
-                            "type": "string",
-                            "icon": "sicon-typography",
-                            "label": "نص إضافي",
-                            "multilanguage": true,
-                            "id": "slides.description",
+                            "id": "aanoan_fraae",
+                            "key": "68bfb67e-ddcf-4c21-b553-13d8b8f03e57",
+                            "type": "static",
+                            "format": "title",
+                            "label": "عنوان فرعي",
                             "value": null,
-                            "description": "يتم عرضه على الصورة بحجم أصغر من العنوان الرئيسي، مع إضافة تأثير دخول للنص يضيف لمسة جمالية على معرض الصور.",
-                            "format": "textarea",
-                            "required": true,
-                            "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
-                            "minLength": 0,
-                            "maxLength": 255,
-                            "key": "5767f3ca-066a-4d25-b00e-7515491457f9"
+                            "variant": "h1",
+                            "icon": "sicon-format-text"
                         }
                     ],
-                    "key": "9fdc1d60-d18f-401b-8aaa-b93680096ba0"
+                    "key": "01309475-8f45-4a2d-91dc-bcf02f9e9382"
                 }
             ]
         },
