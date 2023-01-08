@@ -27,7 +27,7 @@
             "type": "boolean",
             "icon": "sicon-toggle-off",
             "label": "وضع عمودي للمنتجات في مربع المنتجات الثابتة في الصفحة الرئيسية",
-            "description": "gehaddddddddddddddddddddd",
+            "description": null,
             "id": "vertical_fixed_products",
             "format": "switch",
             "required": false,
@@ -147,6 +147,26 @@
                     "label": "اظهار الصورة كاملةً في المنتصف (Contain)",
                     "value": "contain",
                     "key": "f4adec13-6e4c-433b-b141-b2807935ced9"
+                },
+                {
+                    "label": "تمدد الصورة لتملئ لكامل المساحة (Fill)",
+                    "value": "fill",
+                    "key": "12e14314-b383-4912-931b-48377d51163d"
+                },
+                {
+                    "label": "عرض الصورة بحجمها الأصلي بغض النظر عن أبعاد المساحة (None)",
+                    "value": "none",
+                    "key": "cca8f441-455a-4ab9-873d-a742d1656b39"
+                },
+                {
+                    "label": "تغطية الصورة كامل المساحة مع المحافظة على النسبة الصورة (Cover)",
+                    "value": "cover",
+                    "key": "e9c8ea8f-c5c6-438e-9d45-3bce269afde4"
+                },
+                {
+                    "label": null,
+                    "value": "Value 5",
+                    "key": "95db1f72-4b7c-4eef-ac98-56ba82bd9f28"
                 }
             ],
             "options": [
@@ -169,6 +189,11 @@
                     "label": "عرض الصورة بحجمها الأصلي بغض النظر عن أبعاد المساحة (None)",
                     "value": "none",
                     "key": "cca8f441-455a-4ab9-873d-a742d1656b39"
+                },
+                {
+                    "label": null,
+                    "value": "Value 5",
+                    "key": "95db1f72-4b7c-4eef-ac98-56ba82bd9f28"
                 }
             ],
             "source": "Manual",
@@ -178,10 +203,100 @@
             "id": "title",
             "type": "static",
             "format": "title",
-            "label": "Title",
-            "value": null,
+            "label": "Titleslider",
+            "value": "hhhhhhhhhhhhhhhh",
             "variant": "h1",
             "icon": "sicon-format-text"
+        },
+        {
+            "id": "slider",
+            "type": "number",
+            "format": "slider",
+            "inputType": "range",
+            "label": "Slider",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-pin",
+            "value": 0,
+            "required": true,
+            "step": 2.5,
+            "minimum": -50,
+            "maximum": 50
+        },
+        {
+            "id": "slider_1",
+            "type": "number",
+            "format": "slider",
+            "inputType": "range",
+            "label": "Slider 1",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-pin",
+            "value": 0,
+            "required": true,
+            "step": 2.5,
+            "minimum": -50,
+            "maximum": 50
+        },
+        {
+            "id": "slider_2",
+            "type": "number",
+            "format": "slider",
+            "inputType": "range",
+            "label": "Slider 2",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-pin",
+            "value": 0,
+            "required": true,
+            "step": 2.5,
+            "minimum": -50,
+            "maximum": 50
+        },
+        {
+            "id": "slider_3",
+            "type": "number",
+            "format": "slider",
+            "inputType": "range",
+            "label": "Slider 3",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-pin",
+            "value": 0,
+            "required": false,
+            "step": 2.5,
+            "minimum": -50,
+            "maximum": 50
+        },
+        {
+            "id": "slider_4",
+            "type": "number",
+            "format": "slider",
+            "inputType": "range",
+            "label": "Slider 4",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-pin",
+            "value": 0,
+            "required": false,
+            "step": 2.5,
+            "minimum": -50,
+            "maximum": 50
+        },
+        {
+            "id": "slider_5",
+            "type": "number",
+            "format": "slider",
+            "inputType": "range",
+            "label": "Slider 5",
+            "description": null,
+            "labelHTML": null,
+            "icon": "sicon-pin",
+            "value": 0,
+            "required": false,
+            "step": 2.5,
+            "minimum": -50,
+            "maximum": 50
         }
     ],
     "components": [
