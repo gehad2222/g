@@ -15496,7 +15496,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                             
                                                                                             @media (min-width: 640px) {
                                                                                                 .s-block--slider-with-bg .slider-bg {
-                                                                                                    height: 464px
+                                                                                                    height: 315px
                                                                                                 }
                                                                                             }
                                                                                             /*
@@ -19893,4 +19893,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                                 font-size: 40px;
                                                                                                 font-weight: 500;
                                                                                                 text-align: right;
+                                                                                            }
+                                                                                            
+                                                                                            .container.padding {
+                                                                                                padding: 0;
                                                                                             }

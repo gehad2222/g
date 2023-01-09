@@ -2,14 +2,15 @@
 section | | component.background | string | | | component.title | ?string | | | component.description | ?string | | | component.products | Product[] *Collection | @see views/pages/product.twig | | position | int | Sorting number start from zero | #}
 <section class="s-block s-block--slider-with-bg s-block--full-bg">
     <div class="slider-bg">
-        <div class="container pt-8 sm:pt-20 relative">
+        <div class="container pt-8 sm:pt-20 relative padding">
             <div>
                 <h3 class="text-lg font-bold leading-12">
                     {{ component.title }}
                 </h3>
+                {#
                 <p class="text-sm mb-8 line-clamp-2 max-w-lg">
                     {{ component.description }}
-                </p>
+                </p> #}
             </div>
         </div>
     </div>
