@@ -9846,14 +9846,12 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             
             .s-slider-nav-arrow {
                 display: inline-flex;
-                height: 2.5rem;
-                width: 2.5rem;
+                height: 55px;
+                width: 55px;
                 align-items: center;
                 justify-content: center;
-                border-radius: 9999px;
-                border-width: 1px;
+                border-radius: 20px;
                 --tw-border-opacity: 1;
-                border-color: rgba(209, 213, 219, var(--tw-border-opacity));
                 font-size: 1.25rem;
                 line-height: 1.75rem;
                 transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
@@ -9865,7 +9863,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             
             .s-slider-nav-arrow svg {
                 width: 22px;
-                fill: #6b7280
+                fill: #000
             }
             
             .s-slider-thumbs-nav {
@@ -9930,18 +9928,16 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
             }
             
             .s-slider-thumbs-nav button.swiper-button-disabled svg {
-                fill: #d1d5db
+                fill: #000
             }
             
             .s-slider-nav-arrow:not(:disabled):hover {
-                border-color: #414042;
-                border-color: var(--color-primary)
+                background-color: #fff;
             }
-            
-            .s-slider-nav-arrow:not(:disabled):hover svg {
+            /* .s-slider-nav-arrow:not(:disabled):hover svg {
                 fill: #414042;
                 fill: var(--color-primary)
-            }
+            } */
             
             salla-slider:not(.hydrated),
             .carousel-slider {
