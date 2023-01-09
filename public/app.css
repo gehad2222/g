@@ -19984,8 +19984,9 @@ button.swiper-pagination-bullet {
     text-align: right;
 }
 
-.text-white h3~p {
+.text-white h3~p.overFlow {
     font-size: 40px;
     font-weight: 500;
     text-align: right;
+    overflow: auto;
 }
