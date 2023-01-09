@@ -61,6 +61,7 @@ empty. #}
             <div class="space-s-1">
                 <h4 class="text-red-400 font-bold text-sm inline-block">{{ product.sale_price|money }}</h4>
                 <span class="text-sm text-gray-400 line-through">{{ product.regular_price|money }}</span>
+                <i><svg xmlns="http://www.w3.org/2000/svg" width="22.042" height="22.043" viewBox="0 0 22.042 22.043"> <g id="_001-cart" data-name="001-cart" transform="translate(-339.326 -2)"> <path id="Path_1" data-name="Path 1" d="M355.858,21.838a1.1,1.1,0,1,1-1.1,1.1A1.1,1.1,0,0,1,355.858,21.838Zm-6.613,0a1.1,1.1,0,1,1-1.1,1.1A1.1,1.1,0,0,1,349.245,21.838Zm12-16.027-4.4,8.8a1.1,1.1,0,0,1-.985.609h-8.817a1.1,1.1,0,1,0,0,2.2h11.021a1.1,1.1,0,1,1,0,2.2H347.041a3.307,3.307,0,0,1-1.39-6.308L342.915,4.2h-2.486a1.1,1.1,0,1,1,0-2.2h3.306a1.1,1.1,0,0,1,1.055.786l.427,1.418h15.038a1.049,1.049,0,0,1,.261.029l.009,0a1.1,1.1,0,0,1,.843,1.013,1.121,1.121,0,0,1-.026.307l0,.009a1.1,1.1,0,0,1-.091.247Zm-2.763.6H345.877l1.984,6.613h7.316Z" fill-rule="evenodd"/> </g> </svg> </i>                {{ product.add_to_cart_label }}
             </div>
             {% elseif product.starting_price %} {{trans('pages.products.starting_price')}}
             <h4 class="text-red-400 font-bold text-sm inline-block"> {{ product.starting_price|money }} </h4>
@@ -80,7 +81,6 @@ empty. #}
 
         <div class="flex items-center mt-auto">
             <salla-add-product-button class="btn--add-to-cart" fill="outline" width="wide" product-id="{{ product.id }}" product-status="{{ product.status }}" product-type="{{ product.type }}">
-                <i><svg xmlns="http://www.w3.org/2000/svg" width="22.042" height="22.043" viewBox="0 0 22.042 22.043"> <g id="_001-cart" data-name="001-cart" transform="translate(-339.326 -2)"> <path id="Path_1" data-name="Path 1" d="M355.858,21.838a1.1,1.1,0,1,1-1.1,1.1A1.1,1.1,0,0,1,355.858,21.838Zm-6.613,0a1.1,1.1,0,1,1-1.1,1.1A1.1,1.1,0,0,1,349.245,21.838Zm12-16.027-4.4,8.8a1.1,1.1,0,0,1-.985.609h-8.817a1.1,1.1,0,1,0,0,2.2h11.021a1.1,1.1,0,1,1,0,2.2H347.041a3.307,3.307,0,0,1-1.39-6.308L342.915,4.2h-2.486a1.1,1.1,0,1,1,0-2.2h3.306a1.1,1.1,0,0,1,1.055.786l.427,1.418h15.038a1.049,1.049,0,0,1,.261.029l.009,0a1.1,1.1,0,0,1,.843,1.013,1.121,1.121,0,0,1-.026.307l0,.009a1.1,1.1,0,0,1-.091.247Zm-2.763.6H345.877l1.984,6.613h7.316Z" fill-rule="evenodd"/> </g> </svg> </i>                {{ product.add_to_cart_label }}
             </salla-add-product-button>
 
             {% if is_horizontal %}
