@@ -13708,7 +13708,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                                 outline-offset: 2px;
                                                                                                 transition-property: opacity;
                                                                                                 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                                                                                                transition-duration: 150ms
+                                                                                                transition-duration: 150ms;
+                                                                                                margin: 0 5px;
                                                                                             }
 
                                                                                             .header-btn:hover {
