@@ -776,36 +776,24 @@
             "path": "home.featured-products-style3",
             "fields": [
                 {
-                    "id": "title",
-                    "key": "1e4b4c1b-38ce-4ec5-8d90-33919222c58a",
-                    "type": "static",
-                    "format": "title",
-                    "label": "Title",
-                    "value": "العنوان الرئيسي",
-                    "variant": "h1",
-                    "icon": "sicon-format-text",
-                    "defaulted": true
-                },
-                {
-                    "id": "string_1",
-                    "key": "29c27c73-6691-4c97-b4c1-2b85f0dbfbca",
+                    "id": "alaanoan_alreese",
+                    "key": "84b52f0a-bedf-4be4-bf12-cfc69d1a3d1b",
                     "type": "string",
                     "format": "text",
-                    "label": "String 1",
+                    "label": "العنوان الرئيسي",
                     "description": null,
                     "labelHTML": null,
                     "placeholder": "Placeholder text ..",
                     "icon": "sicon-format-text-alt",
-                    "value": "العنوان الفرعي",
+                    "value": null,
                     "multilanguage": false,
                     "required": true,
-                    "minLength": 6,
-                    "maxLength": 30,
-                    "defaulted": true
+                    "minLength": "0",
+                    "maxLength": "3444440"
                 },
                 {
                     "id": "alaanoan_alfraae",
-                    "key": "bf007a37-8d4d-49bb-8fae-8cec2f1edbec",
+                    "key": "dd040806-b456-4b98-a0ae-c0684714d7a8",
                     "type": "string",
                     "format": "text",
                     "label": "العنوان الفرعي",
@@ -820,39 +808,14 @@
                     "maxLength": 30
                 },
                 {
-                    "id": "title_1",
-                    "key": "91ef3457-1b6e-4170-912e-4d1533de6265",
-                    "type": "static",
-                    "format": "title",
-                    "label": "Title 1",
-                    "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-text",
-                    "defaulted": true
-                },
-                {
                     "id": "description",
-                    "key": "4cd40237-929e-4b0a-96db-573c03fef228",
+                    "key": "746da463-a2b0-4e9f-bdc2-02d336ed18f7",
                     "type": "static",
                     "format": "description",
                     "label": "Description",
                     "value": null,
                     "variant": "h1",
                     "icon": "sicon-format-size",
-                    "defaulted": true
-                },
-                {
-                    "id": "color",
-                    "key": "e03b4f8c-5fbb-493d-8f4e-50c81c99c101",
-                    "type": "string",
-                    "format": "color",
-                    "inputType": "color",
-                    "label": "Color",
-                    "description": null,
-                    "labelHTML": null,
-                    "icon": "sicon-format-fill",
-                    "value": "#5dd5c4",
-                    "required": true,
                     "defaulted": true
                 }
             ]
