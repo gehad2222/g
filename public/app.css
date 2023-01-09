@@ -3351,7 +3351,8 @@ textarea.s-input {
 }
 
 .s-button-element:not(:disabled):not([loading]) {
-    pointer-events: auto
+    pointer-events: auto;
+    display: none;
 }
 
 .s-button-btn {
@@ -16889,8 +16890,9 @@ input[type=radio].sr-only:checked~div .product-entry--special .product-rating {
 }
 
 .product-entry--vertical .product-entry__image {
-    border-top-left-radius: 0.375rem;
-    border-top-right-radius: 0.375rem
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #E2E5F2: ;
 }
 
 .product-entry--vertical salla-button.btn--wishlist {
