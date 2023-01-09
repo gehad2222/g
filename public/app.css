@@ -404,7 +404,7 @@ body.mm-ocd-opened {
 
 
 /*
- ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
 
 
@@ -823,7 +823,7 @@ Make sure disabled buttons don't get the pointer cursor.
 /*
 1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
 2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
-   This can trigger a poorly considered lint error in some tools but is included by design.
+ This can trigger a poorly considered lint error in some tools but is included by design.
 */
 
 img,
@@ -1079,8 +1079,8 @@ select {
 }
 
 *,
- ::before,
- ::after {
+::before,
+::after {
     --tw-border-spacing-x: 0;
     --tw-border-spacing-y: 0;
     --tw-translate-x: 0;
@@ -14889,7 +14889,7 @@ input[type=radio].sr-only:checked~div.s-table tbody tr a {
 
 
 /*
-  Block Title
+Block Title
 */
 
 .s-block__title {
@@ -14995,7 +14995,7 @@ input[type=radio].sr-only:checked~div.s-table tbody tr a {
 
 
 /*
-  Main slider
+Main slider
 */
 
 .s-block--hero-slider .swiper-slide {
@@ -15280,7 +15280,7 @@ input[type=radio].sr-only:checked~div.has-overlay:after {
 
 
 /*
-  Tabs Block
+Tabs Block
 */
 
 .tabs-wrapper .tabs__item {
@@ -15757,7 +15757,7 @@ input[type=radio].sr-only:checked~div.s-block--slider-with-bg .slider-bg:before 
 
 
 /*
-  Main Links Block
+Main Links Block
 */
 
 .slide--cat-entry {
@@ -15809,7 +15809,7 @@ input[type=radio].sr-only:checked~div.s-block--slider-with-bg .slider-bg:before 
 
 
 /*
-  offers slider
+offers slider
 */
 
 .slide--offer-entry {
@@ -18382,7 +18382,7 @@ lite-youtube::before {
 
 
 /* responsive iframe with a 16:9 aspect ratio
-    thanks https://css-tricks.com/responsive-iframes/
+  thanks https://css-tricks.com/responsive-iframes/
 */
 
 lite-youtube::after {
@@ -18451,16 +18451,16 @@ lite-youtube.lyt-activated>.lty-playbtn {
 
 
 /**
- * Swiper 8.4.5
- * Most modern mobile touch slider and framework with hardware accelerated transitions
- * https://swiperjs.com
- *
- * Copyright 2014-2022 Vladimir Kharlampidi
- *
- * Released under the MIT License
- *
- * Released on: November 21, 2022
- */
+* Swiper 8.4.5
+* Most modern mobile touch slider and framework with hardware accelerated transitions
+* https://swiperjs.com
+*
+* Copyright 2014-2022 Vladimir Kharlampidi
+*
+* Released under the MIT License
+*
+* Released on: November 21, 2022
+*/
 
 @font-face {
     font-family: swiper-icons;
