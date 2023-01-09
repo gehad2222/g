@@ -14001,7 +14001,7 @@ input[type=radio].sr-only:checked~div#nav-cart span {
     --tw-border-opacity: 1;
     border-bottom-color: rgba(229, 231, 235, var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgba(243, 244, 246, var(--tw-bg-opacity))
+    background-color: #062E5B
 }
 
 .footer-is-light .store-footer .social-link {
@@ -19992,6 +19992,6 @@ button.swiper-pagination-bullet {
     }
 }
 
-.slider-bg~.container.-mt-62.relative.overflow-hidden {
+.swiper-wrapper.s-slider-swiper-wrapper {
     background-color: #F1F1F1;
 }
