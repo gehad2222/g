@@ -777,7 +777,7 @@
             "fields": [
                 {
                     "id": "title",
-                    "key": "3daa4ef5-5672-4578-b13e-3ebfac9812e5",
+                    "key": "cd45858d-72d7-469d-928f-e62009978cd6",
                     "type": "static",
                     "format": "title",
                     "label": "Title",
@@ -787,11 +787,11 @@
                     "defaulted": true
                 },
                 {
-                    "id": "string",
-                    "key": "b6bc752f-2e48-4e97-bf85-ff5486482db0",
+                    "id": "string_1",
+                    "key": "31d33fc8-cf4b-4309-8ca1-747ddbcea857",
                     "type": "string",
                     "format": "text",
-                    "label": "String",
+                    "label": "String 1",
                     "description": null,
                     "labelHTML": null,
                     "placeholder": "Placeholder text ..",
@@ -804,8 +804,36 @@
                     "defaulted": true
                 },
                 {
+                    "id": "string",
+                    "key": "94a661df-c541-46aa-9255-29f97864211a",
+                    "type": "string",
+                    "format": "text",
+                    "label": "String",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": "0",
+                    "maxLength": 30,
+                    "defaulted": true
+                },
+                {
+                    "id": "title_1",
+                    "key": "56152de5-2b1f-47df-b3b1-afa62b6b182e",
+                    "type": "static",
+                    "format": "title",
+                    "label": "Title 1",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text",
+                    "defaulted": true
+                },
+                {
                     "id": "description",
-                    "key": "8458d574-df3d-4c2a-a193-3f62fb5ed160",
+                    "key": "a2a304a0-0474-47f0-96af-688e446c8dd8",
                     "type": "static",
                     "format": "description",
                     "label": "Description",
@@ -816,7 +844,7 @@
                 },
                 {
                     "id": "color",
-                    "key": "a6655ede-8ed2-40a4-b1fc-b7088f35ad01",
+                    "key": "61b10fdf-4b44-4505-b4b9-fd4a8c2029c7",
                     "type": "string",
                     "format": "color",
                     "inputType": "color",
