@@ -9850,7 +9850,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                 width: 55px;
                 align-items: center;
                 justify-content: center;
-                border-radius: 20px;
+                border-radius: 10px;
                 --tw-border-opacity: 1;
                 font-size: 1.25rem;
                 line-height: 1.75rem;
