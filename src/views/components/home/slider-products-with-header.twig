@@ -1,10 +1,10 @@
 {# | Variable | Type | Description | |-----------------------|-----------------------|------------------------------------------------------------------------------| | component | object | Contains merchant settings for fields from twilight.json `component`
 section | | component.background | string | | | component.title | ?string | | | component.description | ?string | | | component.products | Product[] *Collection | @see views/pages/product.twig | | position | int | Sorting number start from zero | #}
-<section class="s-block s-block--slider-with-bg s-block--full-bg">
+<section class="s-block s-block--slider-with-bg s-block--full-bg paddingSction">
     <div class="slider-bg">
         <div class="container pt-8 sm:pt-20 relative padding">
             <div>
-                <h3 class="text-lg font-bold leading-12">
+                <h3 class="text-lg font-bold leading-12 my-title">
                     {{ component.title }}
                 </h3>
                 {#
