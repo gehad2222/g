@@ -579,7 +579,7 @@
             "fields": [
                 {
                     "id": "collection",
-                    "key": "4f92ddc3-9692-4b43-bee5-83c8db431bd6",
+                    "key": "4183c3e7-893a-4e0f-b3b6-05d098c0360a",
                     "type": "collection",
                     "format": "collection",
                     "label": "Collection",
@@ -596,7 +596,7 @@
                 },
                 {
                     "id": "url",
-                    "key": "892792cd-0287-4ddf-9773-90ec9ecba492",
+                    "key": "f272645c-ba57-4f2f-bede-2d08cded3fa3",
                     "type": "string",
                     "format": "url",
                     "inputType": "url",
@@ -613,7 +613,7 @@
                 },
                 {
                     "id": "string",
-                    "key": "23a225a9-0289-4bac-8937-497069d1844d",
+                    "key": "8e5c9e84-c928-45d5-9482-0bcc020a8bd8",
                     "type": "string",
                     "format": "text",
                     "label": "String",
@@ -642,7 +642,7 @@
                     "hide": false,
                     "minLength": 0,
                     "maxLength": 80,
-                    "key": "e4cc5b82-189f-4a6d-8df0-4164749457a4"
+                    "key": "702c32a3-2d43-40e5-915b-89709dd627f6"
                 },
                 {
                     "type": "string",
@@ -657,7 +657,7 @@
                     "placeholder": "يمكنك إضافة وصف لهذا القسم هنا...",
                     "minLength": 0,
                     "maxLength": 255,
-                    "key": "980d3d81-541c-4559-8542-c8b687d9dee6"
+                    "key": "f5a15c24-9825-4f5a-bd91-b6748d6c76f1"
                 },
                 {
                     "type": "items",
@@ -674,7 +674,7 @@
                     "searchable": true,
                     "maxLength": 8,
                     "minLength": 1,
-                    "key": "c6d9326c-d1fb-42de-b1fd-46269aefd956"
+                    "key": "3f2b35a3-bf58-4fe1-97b1-16be66cd9441"
                 },
                 {
                     "type": "items",
@@ -739,15 +739,32 @@
                             "value": "custom"
                         }
                     ],
-                    "key": "90332a0b-019f-4951-a04c-ec8f91506b0c"
+                    "key": "c192c4fd-dfc4-4e14-8c05-46f753ad3dc2"
                 },
                 {
                     "id": "line",
-                    "key": "49b69cc9-176f-4f33-9e10-8da4493cbfd8",
+                    "key": "b29b35e1-0804-4de8-a107-f9dd3093dbd4",
                     "type": "static",
                     "format": "line",
                     "label": "Line",
                     "icon": "sicon-minus",
+                    "defaulted": true
+                },
+                {
+                    "id": "collection_1",
+                    "key": "1400ea74-af47-4a25-a77b-8183d6be856d",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection 1",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [],
+                    "value": [],
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 5,
                     "defaulted": true
                 }
             ]
