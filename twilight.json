@@ -777,11 +777,11 @@
             "fields": [
                 {
                     "id": "title",
-                    "key": "89b0ee7b-02d0-45c7-9ed4-81fd2172416e",
+                    "key": "8647afaa-2071-470c-89f9-557b4bcf0b68",
                     "type": "static",
                     "format": "title",
                     "label": "Title",
-                    "value": "test",
+                    "value": null,
                     "variant": "h1",
                     "icon": "sicon-format-text",
                     "defaulted": true
