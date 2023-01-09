@@ -15623,12 +15623,11 @@ input[type=radio].sr-only:checked~div.has-overlay:after {
     transition-duration: 150ms
 }
 
-
-/* @media (min-width: 640px) {
+@media (min-width: 640px) {
     .s-block--slider-with-bg .slider-bg {
         height: 464px
     }
-} */
+}
 
 
 /*
