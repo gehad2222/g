@@ -19881,3 +19881,14 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                             .main-menu li:hover::before {
                                                                                                 width: 60px;
                                                                                             }
+                                                                                            
+                                                                                            .swiper-lazy h3 {
+                                                                                                font-size: 60px;
+                                                                                                margin-bottom: 25px;
+                                                                                                font-weight: 700px;
+                                                                                            }
+                                                                                            
+                                                                                            .swiper-lazy h3~p {
+                                                                                                font-size: 40px;
+                                                                                                font-size: 40px;
+                                                                                            }
