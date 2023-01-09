@@ -14042,11 +14042,6 @@ input[type=radio].sr-only:checked~div#nav-cart span {
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 300ms
     }
-    .main-menu li>a:hover {
-        color: #414042;
-        color: var(--color-primary);
-        text-decoration-line: none
-    }
     .main-menu li.root-level {
         display: inline-block
     }
@@ -19973,7 +19968,7 @@ button.swiper-pagination-bullet {
 }
 
 .text-whit-500 {
-    color: #fff;
+    display: block;
     color: #fff;
     margin: 0 5px;
 }
@@ -19994,4 +19989,5 @@ button.swiper-pagination-bullet {
 
 .main-menu li:hover::before {
     width: 100%;
+    z-index: 999;
 }
