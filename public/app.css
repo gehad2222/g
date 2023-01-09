@@ -16496,10 +16496,9 @@ offers slider
                     height: calc((100% - 30px) / 2);
                 }
             }
-            
-            .swiper-button-disabled {
+            /* .swiper-button-disabled {
                 opacity: 0.5;
-            }
+            } */
             
             salla-slider .swiper-pagination-bullet {
                 width: 20px;
