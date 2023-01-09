@@ -578,19 +578,55 @@
             "path": "home.slider-products-with-header",
             "fields": [
                 {
-                    "type": "string",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "label": "صورة الخلفية",
-                    "id": "background",
-                    "format": "image",
+                    "id": "collection",
+                    "key": "13de9f71-64aa-46ab-a1f3-ad845456e673",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "Collection",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [],
+                    "value": [],
                     "required": true,
-                    "placeholder": "",
-                    "description": "* المقاس المناسب للصورة هو 640×427 بكسل",
-                    "settings": {
-                        "height": 427,
-                        "width": 640
-                    }
+                    "minLength": 1,
+                    "maxLength": 5,
+                    "defaulted": true
+                },
+                {
+                    "id": "url",
+                    "key": "1a946c44-e6a8-4dcf-8164-05dfb3104d3a",
+                    "type": "string",
+                    "format": "url",
+                    "inputType": "url",
+                    "label": "URL",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://salla.sa",
+                    "icon": "sicon-link",
+                    "value": null,
+                    "required": true,
+                    "minLength": 6,
+                    "maxLength": 30,
+                    "defaulted": true
+                },
+                {
+                    "id": "string",
+                    "key": "d6c7975b-3a42-4408-8c4d-7cd6b6e3fa9d",
+                    "type": "string",
+                    "format": "text",
+                    "label": "String",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": true,
+                    "minLength": "0",
+                    "maxLength": 30,
+                    "defaulted": true
                 },
                 {
                     "type": "string",
@@ -601,11 +637,12 @@
                     "value": null,
                     "required": false,
                     "format": "text",
-                    "description": "",
+                    "description": null,
                     "placeholder": "يمكنك إضافة العنوان الرئيسي هنا...",
                     "hide": false,
                     "minLength": 0,
-                    "maxLength": 80
+                    "maxLength": 80,
+                    "key": "fc59df6e-1090-456c-9924-51a3025a7a92"
                 },
                 {
                     "type": "string",
@@ -614,12 +651,13 @@
                     "multilanguage": true,
                     "id": "description",
                     "value": null,
-                    "description": "",
+                    "description": null,
                     "format": "textarea",
                     "required": false,
                     "placeholder": "يمكنك إضافة وصف لهذا القسم هنا...",
                     "minLength": 0,
-                    "maxLength": 255
+                    "maxLength": 255,
+                    "key": "daf81f32-fbeb-476e-992d-1db78aef8bc4"
                 },
                 {
                     "type": "items",
@@ -627,7 +665,7 @@
                     "label": "منتجات",
                     "id": "products",
                     "format": "dropdown-list",
-                    "description": "",
+                    "description": null,
                     "selected": [],
                     "options": [],
                     "required": true,
@@ -635,7 +673,8 @@
                     "source": "products",
                     "searchable": true,
                     "maxLength": 8,
-                    "minLength": 1
+                    "minLength": 1,
+                    "key": "f4395e48-b74b-492f-979f-95ef97ea4c0e"
                 },
                 {
                     "type": "items",
@@ -699,7 +738,17 @@
                             "key": "custom",
                             "value": "custom"
                         }
-                    ]
+                    ],
+                    "key": "afc77792-4363-45c4-863b-dd1ecdb6e497"
+                },
+                {
+                    "id": "line",
+                    "key": "24b77e21-93d0-4775-97ba-ecbb012f48d8",
+                    "type": "static",
+                    "format": "line",
+                    "label": "Line",
+                    "icon": "sicon-minus",
+                    "defaulted": true
                 }
             ]
         },
