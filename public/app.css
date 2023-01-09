@@ -9908,14 +9908,11 @@ input[type=radio].sr-only:checked~div.s-slider-v-centered .s-slider-block__title
 
 .s-slider-nav-arrow {
     display: inline-flex;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 55px;
+    width: 55px;
     align-items: center;
     justify-content: center;
-    border-radius: 9999px;
-    border-width: 1px;
-    --tw-border-opacity: 1;
-    border-color: rgba(209, 213, 219, var(--tw-border-opacity));
+    border-radius: 10px;
     font-size: 1.25rem;
     line-height: 1.75rem;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
@@ -9927,7 +9924,7 @@ input[type=radio].sr-only:checked~div.s-slider-v-centered .s-slider-block__title
 
 .s-slider-nav-arrow svg {
     width: 22px;
-    fill: #6b7280
+    fill: #000
 }
 
 .s-slider-thumbs-nav {
@@ -9944,6 +9941,10 @@ input[type=radio].sr-only:checked~div.s-slider-v-centered .s-slider-block__title
     --tw-translate-y: -50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     justify-content: space-between
+}
+
+.s-slider-thumbs-nav:hover {
+    background-color: #fff;
 }
 
 .s-slider-thumbs-nav> :not([hidden])~ :not([hidden]) {
@@ -16584,10 +16585,6 @@ input[type=radio].sr-only:checked~div.testimonials-slider .testimonial__icon {
     .best-products-slider .swiper-wrapper .swiper-slide {
         height: calc((100% - 30px) / 2);
     }
-}
-
-.swiper-button-disabled {
-    opacity: 0.5;
 }
 
 salla-slider .swiper-pagination-bullet {
