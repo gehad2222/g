@@ -19886,9 +19886,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                                 font-size: 60px;
                                                                                                 margin-bottom: 25px;
                                                                                                 font-weight: 700px;
+                                                                                                text-align: right;
                                                                                             }
                                                                                             
                                                                                             .swiper-lazy h3~p {
                                                                                                 font-size: 40px;
                                                                                                 font-weight: 500;
+                                                                                                text-align: right;
                                                                                             }
