@@ -751,59 +751,6 @@
                     "defaulted": true
                 }
             ]
-        },
-        {
-            "key": "b89edc4a-ce0b-468f-8323-2da48147bb32",
-            "title": "صور مربعة قسم المنتجاowl",
-            "icon": "sicon-image",
-            "path": "home.enhanced-square-banners",
-            "fields": [
-                {
-                    "id": "title",
-                    "key": "3f7798fe-8462-4ed9-9cb4-012dd959fa66",
-                    "type": "static",
-                    "format": "title",
-                    "label": "Title",
-                    "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-text",
-                    "defaulted": true
-                },
-                {
-                    "id": "string",
-                    "key": "5bbc20f7-7fd0-4037-8f75-228297b6606c",
-                    "type": "string",
-                    "format": "text",
-                    "label": "String",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30,
-                    "defaulted": true
-                },
-                {
-                    "id": "url",
-                    "key": "e2888d00-1edc-4d89-af15-5ef68137ca5f",
-                    "type": "string",
-                    "format": "url",
-                    "inputType": "url",
-                    "label": "URL",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://salla.sa",
-                    "icon": "sicon-link",
-                    "value": null,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30,
-                    "defaulted": true
-                }
-            ]
         }
     ],
     "support_url": null,
