@@ -777,18 +777,18 @@
             "fields": [
                 {
                     "id": "title",
-                    "key": "cd45858d-72d7-469d-928f-e62009978cd6",
+                    "key": "a977e6cd-2406-426a-a3d9-71e9d26c6713",
                     "type": "static",
                     "format": "title",
                     "label": "Title",
-                    "value": null,
+                    "value": "العنوان الرئيسي",
                     "variant": "h1",
                     "icon": "sicon-format-text",
                     "defaulted": true
                 },
                 {
                     "id": "string_1",
-                    "key": "31d33fc8-cf4b-4309-8ca1-747ddbcea857",
+                    "key": "477cb462-8c16-44b0-83a9-7200b43c3dec",
                     "type": "string",
                     "format": "text",
                     "label": "String 1",
@@ -796,7 +796,7 @@
                     "labelHTML": null,
                     "placeholder": "Placeholder text ..",
                     "icon": "sicon-format-text-alt",
-                    "value": null,
+                    "value": "العنوان الفرعي",
                     "multilanguage": false,
                     "required": false,
                     "minLength": 6,
@@ -805,7 +805,7 @@
                 },
                 {
                     "id": "string",
-                    "key": "94a661df-c541-46aa-9255-29f97864211a",
+                    "key": "5b1d09cb-61ee-4e7e-b784-04d642318dd0",
                     "type": "string",
                     "format": "text",
                     "label": "String",
@@ -822,7 +822,7 @@
                 },
                 {
                     "id": "title_1",
-                    "key": "56152de5-2b1f-47df-b3b1-afa62b6b182e",
+                    "key": "be02c593-b7bd-49e6-a05d-d6f5611bf170",
                     "type": "static",
                     "format": "title",
                     "label": "Title 1",
@@ -833,7 +833,7 @@
                 },
                 {
                     "id": "description",
-                    "key": "a2a304a0-0474-47f0-96af-688e446c8dd8",
+                    "key": "b372a1ca-ddbc-4610-bfea-85b9834138f7",
                     "type": "static",
                     "format": "description",
                     "label": "Description",
@@ -844,7 +844,7 @@
                 },
                 {
                     "id": "color",
-                    "key": "61b10fdf-4b44-4505-b4b9-fd4a8c2029c7",
+                    "key": "5850a1c1-814e-4673-bb6a-a021db1f87ce",
                     "type": "string",
                     "format": "color",
                     "inputType": "color",
