@@ -15614,7 +15614,6 @@ input[type=radio].sr-only:checked~div.has-overlay:after {
 
 .s-block--slider-with-bg .slider-bg {
     position: relative;
-    height: 24rem;
     background-size: cover;
     background-position: center;
     --tw-text-opacity: 1;
