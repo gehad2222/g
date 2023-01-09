@@ -19992,6 +19992,6 @@ button.swiper-pagination-bullet {
     }
 }
 
-.swiper-wrapper.s-slider-swiper-wrapper {
+.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden {
     background-color: #F1F1F1;
 }
