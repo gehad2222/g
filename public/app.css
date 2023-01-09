@@ -14926,8 +14926,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                                     height: 528px
                                                                                                 }
                                                                                             }
-                                                                                            
-                                                                                            .s-block--hero-slider .swiper-slide .swiper-lazy:after {
+                                                                                            /* .s-block--hero-slider .swiper-slide .swiper-lazy:after {
                                                                                                 position: absolute;
                                                                                                 top: 0px;
                                                                                                 height: 100%;
@@ -14940,7 +14939,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                                 transition-duration: 150ms;
                                                                                                 --tw-content: "";
                                                                                                 content: var(--tw-content)
-                                                                                            }
+                                                                                            } */
                                                                                             
                                                                                             input[type=radio].sr-only div.s-block--hero-slider .swiper-slide .swiper-lazy:after {
                                                                                                 transition: all 0.3s;
@@ -18438,6 +18437,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                                 transform: translateZ(0);
                                                                                                 -webkit-backface-visibility: hidden;
                                                                                                 backface-visibility: hidden;
+                                                                                                background-color: #062E5B;
                                                                                             }
                                                                                             
                                                                                             .swiper-3d,
