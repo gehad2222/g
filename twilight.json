@@ -774,7 +774,19 @@
             "title": "مميزات المتجر",
             "icon": "sicon-store",
             "path": "home.featured-products-style3",
-            "fields": []
+            "fields": [
+                {
+                    "id": "title",
+                    "key": "89b0ee7b-02d0-45c7-9ed4-81fd2172416e",
+                    "type": "static",
+                    "format": "title",
+                    "label": "Title",
+                    "value": "test",
+                    "variant": "h1",
+                    "icon": "sicon-format-text",
+                    "defaulted": true
+                }
+            ]
         }
     ],
     "support_url": null,
