@@ -15588,20 +15588,8 @@ input[type=radio].sr-only:checked~div.has-overlay:after {
 
 @media (min-width: 640px) {
     .s-block--slider-with-bg .slider-bg {
-        height: 464px
+        height: 315px
     }
-}
-
-.s-block--slider-with-bg .slider-bg:before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-    opacity: 0.6;
 }
 
 input[type=radio].sr-only div.s-block--slider-with-bg .slider-bg:before {
@@ -19989,4 +19977,12 @@ button.swiper-pagination-bullet {
     font-weight: 500;
     text-align: right;
     overflow: unset !important;
+}
+
+.padding {
+    padding: 70px 0;
+}
+
+.swiper-lazy.swiper-lazy-loaded {
+    background-color: #062E5B;
 }
