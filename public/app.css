@@ -9998,13 +9998,12 @@ input[type=radio].sr-only:checked~div.s-slider-thumbs-nav {
 }
 
 .s-slider-nav-arrow:not(:disabled):hover {
-    border-color: #414042;
-    border-color: var(--color-primary)
+    background-color: #fff;
 }
 
 .s-slider-nav-arrow:not(:disabled):hover svg {
-    fill: #414042;
-    fill: var(--color-primary)
+    fill: #000;
+    fill: #000
 }
 
 salla-slider:not(.hydrated),
