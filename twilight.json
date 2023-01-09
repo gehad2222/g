@@ -777,13 +777,55 @@
             "fields": [
                 {
                     "id": "title",
-                    "key": "8647afaa-2071-470c-89f9-557b4bcf0b68",
+                    "key": "3daa4ef5-5672-4578-b13e-3ebfac9812e5",
                     "type": "static",
                     "format": "title",
                     "label": "Title",
                     "value": null,
                     "variant": "h1",
                     "icon": "sicon-format-text",
+                    "defaulted": true
+                },
+                {
+                    "id": "string",
+                    "key": "b6bc752f-2e48-4e97-bf85-ff5486482db0",
+                    "type": "string",
+                    "format": "text",
+                    "label": "String",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30,
+                    "defaulted": true
+                },
+                {
+                    "id": "description",
+                    "key": "8458d574-df3d-4c2a-a193-3f62fb5ed160",
+                    "type": "static",
+                    "format": "description",
+                    "label": "Description",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-size",
+                    "defaulted": true
+                },
+                {
+                    "id": "color",
+                    "key": "a6655ede-8ed2-40a4-b1fc-b7088f35ad01",
+                    "type": "string",
+                    "format": "color",
+                    "inputType": "color",
+                    "label": "Color",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-format-fill",
+                    "value": "#5dd5c4",
+                    "required": false,
                     "defaulted": true
                 }
             ]
