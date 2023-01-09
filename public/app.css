@@ -14055,16 +14055,6 @@ input[type=radio].sr-only:checked~div#nav-cart span {
         padding-bottom: 2rem;
         font-weight: 700
     }
-    .main-menu>.has-children:hover>a {
-        color: #414042;
-        color: var(--color-primary);
-    }
-    .main-menu .has-children li a:hover,
-    .main-menu .has-children .has-children:hover>a {
-        color: #414042;
-        color: var(--color-primary);
-        background-color: rgba(229, 231, 235, 0.2);
-    }
     .main-menu .has-children>a:after {
         font-family: "sallaicons";
         content: "\e970";
@@ -19984,4 +19974,24 @@ button.swiper-pagination-bullet {
 
 .text-whit-500 {
     color: #fff;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.main-menu li {
+    position: relative;
+}
+
+.main-menu li::before {
+    content: "";
+    position: absolute;
+    right: calc(50% - 30px);
+    top: 100%;
+    background-color: #00C2FF;
+    height: 2px;
+    width: 0;
+}
+
+.main-menu li:hover::before {
+    width: 100%;
 }
