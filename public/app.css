@@ -13949,17 +13949,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                                     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                                                                                                     transition-duration: 300ms
                                                                                                 }
-                                                                                                .main-menu li {
-                                                                                                    position: relative;
-                                                                                                }
-                                                                                                .main-menu li::before {
-                                                                                                    content: "";
-                                                                                                }
-                                                                                                .main-menu li>a:hover {
+                                                                                                /* .main-menu li>a:hover {
                                                                                                     color: #414042;
                                                                                                     color: var(--color-primary);
                                                                                                     text-decoration-line: none
-                                                                                                }
+                                                                                                } */
                                                                                                 .main-menu li.root-level {
                                                                                                     display: inline-block
                                                                                                 }
@@ -19865,4 +19859,12 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
                                                                                             
                                                                                             .sicon-user-circle:before {
                                                                                                 display: none;
+                                                                                            }
+                                                                                            
+                                                                                            .main-menu li {
+                                                                                                position: relative;
+                                                                                            }
+                                                                                            
+                                                                                            .main-menu li::before {
+                                                                                                content: "";
                                                                                             }
