@@ -579,7 +579,7 @@
             "fields": [
                 {
                     "id": "collection",
-                    "key": "13de9f71-64aa-46ab-a1f3-ad845456e673",
+                    "key": "4f92ddc3-9692-4b43-bee5-83c8db431bd6",
                     "type": "collection",
                     "format": "collection",
                     "label": "Collection",
@@ -596,7 +596,7 @@
                 },
                 {
                     "id": "url",
-                    "key": "1a946c44-e6a8-4dcf-8164-05dfb3104d3a",
+                    "key": "892792cd-0287-4ddf-9773-90ec9ecba492",
                     "type": "string",
                     "format": "url",
                     "inputType": "url",
@@ -605,7 +605,7 @@
                     "labelHTML": null,
                     "placeholder": "e.g. https://salla.sa",
                     "icon": "sicon-link",
-                    "value": null,
+                    "value": "https://web.whatsapp.com/",
                     "required": true,
                     "minLength": 6,
                     "maxLength": 30,
@@ -613,7 +613,7 @@
                 },
                 {
                     "id": "string",
-                    "key": "d6c7975b-3a42-4408-8c4d-7cd6b6e3fa9d",
+                    "key": "23a225a9-0289-4bac-8937-497069d1844d",
                     "type": "string",
                     "format": "text",
                     "label": "String",
@@ -621,7 +621,7 @@
                     "labelHTML": null,
                     "placeholder": "Placeholder text ..",
                     "icon": "sicon-format-text-alt",
-                    "value": null,
+                    "value": "اضغط هنا للتواصل مباشرة",
                     "multilanguage": false,
                     "required": true,
                     "minLength": "0",
@@ -642,7 +642,7 @@
                     "hide": false,
                     "minLength": 0,
                     "maxLength": 80,
-                    "key": "fc59df6e-1090-456c-9924-51a3025a7a92"
+                    "key": "e4cc5b82-189f-4a6d-8df0-4164749457a4"
                 },
                 {
                     "type": "string",
@@ -657,7 +657,7 @@
                     "placeholder": "يمكنك إضافة وصف لهذا القسم هنا...",
                     "minLength": 0,
                     "maxLength": 255,
-                    "key": "daf81f32-fbeb-476e-992d-1db78aef8bc4"
+                    "key": "980d3d81-541c-4559-8542-c8b687d9dee6"
                 },
                 {
                     "type": "items",
@@ -674,7 +674,7 @@
                     "searchable": true,
                     "maxLength": 8,
                     "minLength": 1,
-                    "key": "f4395e48-b74b-492f-979f-95ef97ea4c0e"
+                    "key": "c6d9326c-d1fb-42de-b1fd-46269aefd956"
                 },
                 {
                     "type": "items",
@@ -739,11 +739,11 @@
                             "value": "custom"
                         }
                     ],
-                    "key": "afc77792-4363-45c4-863b-dd1ecdb6e497"
+                    "key": "90332a0b-019f-4951-a04c-ec8f91506b0c"
                 },
                 {
                     "id": "line",
-                    "key": "24b77e21-93d0-4775-97ba-ecbb012f48d8",
+                    "key": "49b69cc9-176f-4f33-9e10-8da4493cbfd8",
                     "type": "static",
                     "format": "line",
                     "label": "Line",
