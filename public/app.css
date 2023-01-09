@@ -19980,9 +19980,24 @@ button.swiper-pagination-bullet {
 }
 
 .padding {
-    padding: 70px 0;
+    padding: 66px 0;
+}
+
+.home-slider__content .text-white {
+    margin-top: 235px;
 }
 
 .swiper-lazy.swiper-lazy-loaded {
     background-color: #062E5B;
+}
+
+.paddingSction {
+    background-color: #F1F1F1;
+}
+
+.my-title {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
 }
